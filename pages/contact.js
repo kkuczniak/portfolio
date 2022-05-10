@@ -78,7 +78,7 @@ export default function Contact() {
           </p>
 
           <p className='text-4xl  uppercase py-5 flex flex-col md:flex-row justify-between items-end'>
-            Let's talk about{' '}
+            Let`&apos;`s talk about
             <input
               className='max-w-full text-salmonFont bg-[transparent] outline-none border-0 border-b border-[#808080] focus:border-salmonFont'
               name='message'

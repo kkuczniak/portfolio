@@ -82,7 +82,7 @@ export default function Projects() {
               MovieData
             </h1>
             <p className='text-salmonFont italic text-2xl pb-5'>
-              ///NOT READY YET///
+              NOT READY YET
             </p>
             <p className='text-[#ffffff] text-xl pb-5'>
               <small className='text-pinkFont text-2xl'>PROJECT CONCEPT</small>
@@ -90,8 +90,8 @@ export default function Projects() {
               So the typeScript time has begun.
               <br /> The main reason for developing this app is to learn
               TypeScript.
-              <br /> So far it's just a data fetching but I'm going to use
-              firebase for login page.
+              <br /> So far it`&apos;`s just a data fetching but I`&apos;`m
+              going to use firebase for login page.
             </p>
             <small className='text-pinkFont text-2xl'>TECH STACK</small>
             <ul className='text-[#ffffff] columns-2 text-xl pb-5 list-disc ml-2'>
@@ -185,7 +185,7 @@ export default function Projects() {
           </div>
           <div className='mt-5 lg:mt-0 img-container flex w-full items-center justify-center lg:w-[50%]'>
             <Image
-              src='/Przechwytywanie2.JPG'
+              src='/wilsonSPA.webp'
               alt='WILSON SPA'
               width='700'
               height='500'
