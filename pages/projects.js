@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { useEffect } from 'react';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { IoLogoGithub, IoCheckmarkCircleOutline } from 'react-icons/io5';
 import Menu from '../components/Menu';
 
