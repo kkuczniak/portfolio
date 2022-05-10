@@ -1,9 +1,14 @@
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 import { IoLogoGithub, IoCheckmarkCircleOutline } from 'react-icons/io5';
 import Menu from '../components/Menu';
 
 export default function Projects() {
+  useEffect(() => {
+    AOS.init();
+  });
+
   return (
     <>
       <Menu />
