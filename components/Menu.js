@@ -18,12 +18,20 @@ export default function Menu() {
           </a>
         </Link>
         <Link href='/projects'>
-          <a className={`${router.pathname == '/projects' ? 'active' : ''}`}>
+          <a
+            className={`${
+              router.pathname == '/projects' ? 'active' : ''
+            } active:border-b`}
+          >
             projects
           </a>
         </Link>
         <Link href='/contact'>
-          <a className={`${router.pathname == '/contact' ? 'active' : ''}`}>
+          <a
+            className={`${
+              router.pathname == '/contact' ? 'active' : ''
+            } active:border-b`}
+          >
             contact me
           </a>
         </Link>
