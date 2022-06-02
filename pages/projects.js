@@ -84,10 +84,70 @@ export default function Projects() {
           data-aos-delay='700'
         >
           <div className='project-text flex flex-col w-full items-start justify-center h-[50%] lg:h-full lg:w-[50%] px-3 lg:pl-32'>
+            <h1 className='text-[#ffffff] flex justify-center md:justify-start w-full  text-6xl lg:text-[5rem] mb-5 lg:mb-28'>
+              BookGarden
+            </h1>
+            <p className='text-[#ffffff] text-xl pb-5'>
+              <small className='text-pinkFont text-2xl'>PROJECT CONCEPT</small>
+              <br />
+              Ebook reading website. this site uses the gutenberg project
+              containing a huge database of free ebooks. The user can download
+              formats to e-book readers or visit the website with the online
+              version and add books to favorites.
+            </p>
+            <small className='text-pinkFont text-2xl'>TECH STACK</small>
+            <ul className='text-[#ffffff] columns-2 text-xl pb-5 list-disc ml-2'>
+              <li>Next.js</li>
+              <li>Context API</li>
+              <li>TailwindCSS</li>
+              <li>js-cookie</li>
+            </ul>
+            <br />
+            <a
+              href='https://github.com/kkuczniak/bookgarden-reader'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
+            >
+              <IoLogoGithub className='pr-2 w-9 h-9' name='logo-github' /> VIEW
+              REPO
+            </a>
+            <br />
+            <a
+              href='https://bookgarden-reader.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
+            >
+              <IoCheckmarkCircleOutline
+                className='pr-2 w-9 h-9'
+                name='checkmark-circle-outline'
+              />
+              LIVE DEMO
+            </a>
+          </div>
+          <div className='mt-5 lg:mt-0 img-container flex w-full items-center justify-center lg:w-[50%]'>
+            <Image
+              src='/bookgarden.webp'
+              alt='bookgarden'
+              width='700'
+              height='500'
+            />
+          </div>
+        </div>
+        <div
+          className='project-container lg:h-screen '
+          data-aos='fade-up'
+          data-aos-duration='800'
+          data-aos-offset='450'
+          data-aos-easing='ease'
+          data-aos-delay='700'
+        >
+          <div className='project-text flex flex-col w-full items-start justify-center h-[50%] lg:h-full lg:w-[50%] px-3 lg:pl-32'>
             <h1 className='text-[#ffffff] flex justify-center md:justify-start w-full  text-6xl lg:text-[5rem] mb-5 lg:mb-24'>
               MovieData
             </h1>
-            <p className='text-salmonFont italic text-2xl pb-5'>
+            <p className='text-salmonFont italic text-2xl pb-5 underline'>
               NOT READY YET
             </p>
             <p className='text-[#ffffff] text-xl pb-5'>
@@ -96,8 +156,8 @@ export default function Projects() {
               So the typeScript time has begun.
               <br /> The main reason for developing this app is to learn
               TypeScript.
-              <br /> So far it`&apos;`s just a data fetching but I`&apos;`m
-              going to use firebase for login page.
+              <br /> So far it&apos;s just a data fetching but I&apos;m going to
+              use firebase for login page.
             </p>
             <small className='text-pinkFont text-2xl'>TECH STACK</small>
             <ul className='text-[#ffffff] columns-2 text-xl pb-5 list-disc ml-2'>
@@ -261,16 +321,14 @@ export default function Projects() {
             <p className='text-[#ffffff] text-xl pb-5'>
               <small className='text-pinkFont text-2xl'>PROJECT CONCEPT</small>
               <br />
-              Spa Hotel website created to learn about gatsby JS,
-              <br /> react-hook-forms and to check if framer-motion <br /> is as
-              cool as they say about it
+              Landing page app for searching articles from new york time API,
+              built with React, hooks, TailwindCSS and deployed on firebase.
             </p>
             <small className='text-pinkFont text-2xl'>TECH STACK</small>
             <ul className='text-[#ffffff] columns-2 text-xl pb-5 list-disc ml-2'>
-              <li>Gatsby.js</li>
-              <li>framer-motion</li>
-              <li>react-hook-form</li>
-              <li>styled-components</li>
+              <li>React</li>
+              <li>TailwindCSS</li>
+              <li>firebase</li>
             </ul>
             <br />
             <a
