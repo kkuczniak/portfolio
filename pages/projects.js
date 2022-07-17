@@ -168,7 +168,7 @@ export default function Projects() {
             </ul>
             <br />
             <a
-              href='https://github.com/kkuczniak/moviesData'
+              href='https://github.com/kkuczniak/movie-web'
               target='_blank'
               rel='noopener noreferrer'
               className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
@@ -178,7 +178,7 @@ export default function Projects() {
             </a>
             <br />
             <a
-              href='https://movies-data-eight.vercel.app/'
+              href='https://movie-web-sigma.vercel.app/'
               target='_blank'
               rel='noopener noreferrer'
               className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
@@ -191,12 +191,7 @@ export default function Projects() {
             </a>
           </div>
           <div className='mt-5 lg:mt-0 img-container flex w-full items-center justify-center lg:w-[50%]'>
-            <Image
-              src='/moviedata.webp'
-              alt='WILSON SPA'
-              width='700'
-              height='500'
-            />
+            <Image src='/movie.webp' alt='movies' width='700' height='500' />
           </div>
         </div>
         <div
