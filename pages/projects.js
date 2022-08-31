@@ -84,6 +84,67 @@ export default function Projects() {
           data-aos-delay='700'
         >
           <div className='project-text flex flex-col w-full items-start justify-center h-[50%] lg:h-full lg:w-[50%] px-3 lg:pl-32'>
+            <h1 className='text-[#ffffff] flex justify-center md:justify-start w-full  text-6xl lg:text-[5rem] mb-5 lg:mb-24'>
+              Game Vite
+            </h1>
+            <p className='text-salmonFont italic text-2xl pb-5 underline'>
+              NOT READY YET
+            </p>
+            <p className='text-[#ffffff] text-xl pb-5'>
+              <small className='text-pinkFont text-2xl'>PROJECT CONCEPT</small>
+              <br />
+              MERN Stack Project with TS and Vite.
+              <br /> A gaming blog that allows users to log in and add posts.
+              Design strongly inspired by Cyberpunk 2077. Website created to
+              learn typescript and check how vite works.
+            </p>
+            <small className='text-pinkFont text-2xl'>TECH STACK</small>
+            <ul className='text-[#ffffff] columns-2 text-xl pb-5 list-disc ml-2'>
+              <li>Vite</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Firebase</li>
+              <li>SCSS</li>
+              <li>CSS Modules</li>
+              <li>MongoDB</li>
+            </ul>
+            <br />
+            <a
+              href='https://github.com/kkuczniak/vite-blog'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
+            >
+              <IoLogoGithub className='pr-2 w-9 h-9' name='logo-github' /> VIEW
+              REPO
+            </a>
+            <br />
+            {/* <a
+              href='https://movie-web-sigma.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
+            >
+              <IoCheckmarkCircleOutline
+                className='pr-2 w-9 h-9'
+                name='checkmark-circle-outline'
+              />
+              LIVE DEMO
+            </a> */}
+          </div>
+          <div className='mt-5 lg:mt-0 img-container flex w-full items-center justify-center lg:w-[50%]'>
+            <Image src='/blogVite.webp' alt='blog' width='700' height='500' />
+          </div>
+        </div>
+        <div
+          className='project-container lg:h-screen '
+          data-aos='fade-up'
+          data-aos-duration='800'
+          data-aos-offset='450'
+          data-aos-easing='ease'
+          data-aos-delay='700'
+        >
+          <div className='project-text flex flex-col w-full items-start justify-center h-[50%] lg:h-full lg:w-[50%] px-3 lg:pl-32'>
             <h1 className='text-[#ffffff] flex justify-center md:justify-start w-full  text-6xl lg:text-[5rem] mb-5 lg:mb-28'>
               BookGarden
             </h1>
@@ -135,65 +196,7 @@ export default function Projects() {
             />
           </div>
         </div>
-        <div
-          className='project-container lg:h-screen '
-          data-aos='fade-up'
-          data-aos-duration='800'
-          data-aos-offset='450'
-          data-aos-easing='ease'
-          data-aos-delay='700'
-        >
-          <div className='project-text flex flex-col w-full items-start justify-center h-[50%] lg:h-full lg:w-[50%] px-3 lg:pl-32'>
-            <h1 className='text-[#ffffff] flex justify-center md:justify-start w-full  text-6xl lg:text-[5rem] mb-5 lg:mb-24'>
-              MovieData
-            </h1>
-            <p className='text-salmonFont italic text-2xl pb-5 underline'>
-              NOT READY YET
-            </p>
-            <p className='text-[#ffffff] text-xl pb-5'>
-              <small className='text-pinkFont text-2xl'>PROJECT CONCEPT</small>
-              <br />
-              So the typeScript time has begun.
-              <br /> The main reason for developing this app is to learn
-              TypeScript.
-              <br /> So far it&apos;s just a data fetching but I&apos;m going to
-              use firebase for login page.
-            </p>
-            <small className='text-pinkFont text-2xl'>TECH STACK</small>
-            <ul className='text-[#ffffff] columns-2 text-xl pb-5 list-disc ml-2'>
-              <li>Next.js</li>
-              <li>TypeScript</li>
-              <li>TailwindCSS</li>
-              <li>Firebase</li>
-            </ul>
-            <br />
-            <a
-              href='https://github.com/kkuczniak/movie-web'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
-            >
-              <IoLogoGithub className='pr-2 w-9 h-9' name='logo-github' /> VIEW
-              REPO
-            </a>
-            <br />
-            <a
-              href='https://movie-web-sigma.vercel.app/'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-pinkFont h-10 w-36 flex flex-row items-center justify-center'
-            >
-              <IoCheckmarkCircleOutline
-                className='pr-2 w-9 h-9'
-                name='checkmark-circle-outline'
-              />
-              LIVE DEMO
-            </a>
-          </div>
-          <div className='mt-5 lg:mt-0 img-container flex w-full items-center justify-center lg:w-[50%]'>
-            <Image src='/movie.webp' alt='movies' width='700' height='500' />
-          </div>
-        </div>
+
         <div
           className='project-container lg:h-screen '
           data-aos='fade-up'
